@@ -37,33 +37,40 @@ The system is implemented using object-oriented programming (OOP) principles and
 - Planning and documenting software projects effectively
 
 ## 📁 Project Structure
+```
 car-rental-system-cpp/
 ├── main.cpp
-├── Overview.jpg # System flowchart
+├── Overview.jpg    # System flowchart
 ├── README.md
+```
 
 ## 🛠️ How to Run the Program
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/car-rental-system-cpp.git
+   ```
 2. Compile the code using a C++ compiler (like g++):
+   ```bash
+   g++ main.cpp -o car_rental
+   ```
+3. Run the program:
+   ```bash
+   ./car_rental
+   ```
 
-  g++ main.cpp -o car_rental
-🧱 Future Improvements
-Add GUI using libraries like Qt or SFML
+## 🧱 Future Improvements
+- Add GUI using libraries like Qt or SFML  
+- Store data using SQLite or MySQL instead of text files  
+- Secure login system with encrypted passwords  
+- Admin panel to manage cars, users, and transactions  
+- Better error handling and user feedback system  
 
-Store data using SQLite or MySQL instead of text files
+## 📸 System Flowchart
+Refer to the image `Overview.jpg` included in the repository for a visual representation of the system’s flow and features.
 
-Secure login system with encrypted passwords
+## 👤 Author
+**Zaheer Abbas**  
 
-Admin panel to manage cars, users, and transactions
-
-Better error handling and user feedback system
-
-📸 System Flowchart
-Refer to the flowchart image Overview.jpg for a visual guide of the system's flow and features.
-
-👤 Author
-Zaheer Abbas
+---
 
 ⭐ If you found this project helpful, feel free to give it a star and share it!
